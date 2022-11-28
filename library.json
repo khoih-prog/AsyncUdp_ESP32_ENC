@@ -1,0 +1,46 @@
+{
+  "name":"AsyncUdp_ESP32_ENC",
+  "version": "2.0.0",
+  "description":"Fully Asynchronous UDP Library for ESP32 boards using LwIP ENC28J60 Ethernet. The library is easy to use and includes support for Unicast, Broadcast and Multicast environments",
+  "keywords":"communication, data, async, udp, ntp, time, time-server, server, client, multicast, broadcast, webserver, esp32, esp32-s2, esp32-c3, enc28j60, lwip, udp-server, udp-multicast-server",
+  "authors": 
+  [
+    {
+      "name": "Hristo Gochkov",
+      "url":   "https://github.com/me-no-dev"
+    },
+    {
+      "name":  "Khoi Hoang",
+      "url":   "https://github.com/khoih-prog",
+      "email": "khoih.prog@gmail.com",
+      "maintainer": true
+    }  
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/khoih-prog/AsyncUdp_ESP32_ENC"
+  },
+  "homepage": "https://github.com/khoih-prog/AsyncUdp_ESP32_ENC",
+  "export": {
+    "exclude": [
+      "linux",
+      "extras",
+      "tests"
+    ]
+  },
+  "dependencies": 
+  [
+    {
+      "owner": "khoih-prog",
+      "name": "WebServer_ESP32_ENC",
+      "version": "^1.5.1",
+      "platforms": "espressif32"
+    }
+  ],
+  "license": "LGPL-3.0",
+  "frameworks": "*",
+  "platforms": ["espressif32"],
+  "examples": "examples/*/*/*.ino",
+  "headers": [ "AsyncUdp_ESP32_ENC.h", "AsyncUdp_ESP32_ENC.hpp" ]
+}
