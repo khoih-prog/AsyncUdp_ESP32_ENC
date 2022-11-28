@@ -472,7 +472,7 @@ void loop()
  3. [AsyncUdpSendReceive](examples/AsyncUdpSendReceive) 
  4. [AsyncUDPServer](examples/AsyncUDPServer)
  5. [AsyncUDPMulticastServer](examples/AsyncUDPMulticastServer)
- 6. [**multiFileProject**](examples/multiFileProject) **New**
+ 6. [**multiFileProject**](examples/multiFileProject)
 ---
 
 ### Example [AsyncUdpNTPClient](examples/AsyncUdpNTPClient)
